@@ -25,7 +25,7 @@ Jak widać, bariera potencjału ma wysokość ok 3 kT i odpowiada odległości o
 
 Liczba koordynacyjna reprezentuje liczbę atomów związanych z jonem. Dla przeprowadzonej symulacji startuje ona z okolic trójki po czym szybko osiąga optymalną wartość około 5-6, co obrazują wykresy:
 
-![Coordination number in time](https://raw.githubusercontent.com/adamzny/0800-fizobl-lammps/main/)
+![Coordination number in time](https://raw.githubusercontent.com/adamzny/0800-fizobl-lammps/main/coord-time.png)
 
 ![Coordination number histogram](https://raw.githubusercontent.com/adamzny/0800-fizobl-lammps/main/histogram_coord.png)
 
