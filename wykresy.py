@@ -1,15 +1,8 @@
 import matplotlib.pyplot as plt
 import math
+import numpy as np
 
-
-with open("COLVAR-driver", "r") as f:
-    time, dist, coord = [], [], []
-    f.readline()
-    for line in f:
-        data = [float(i) for i in line.split()]
-        time.append(data[0])
-        dist.append(data[1])
-        coord.append(data[2])
+time, dist, coord = np.loadtxt("COLVAR-driver", unpack=True)
 
 plt.figure(1)
 N, bins, _ = plt.hist(dist, bins=80, density=True)
